@@ -1,0 +1,156 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+.last-works {
+    padding: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #1E0E62;
+}
+
+.showcase-button {
+    padding: 10px 20px;
+    border: 2px solid #EBEAED;
+    text-decoration: none;
+    color: #1E0E62;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.showcase-button:hover {
+    background-color: #1E0E62;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 50px 80px;
+    line-height: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #1E0E62;
+    line-height: 32px;
+}
+
+.card p {
+    font-size: 16px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 70px;
+
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #1E0E62;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card--white .explore-btn{
+    background-color: #25DAC5;
+}
+
+.card--white a{
+    color: white;
+}
+
+.explore-btn:hover {
+    background-color: #1E0E62;
+    color: #fff;
+}
+
+.purple {
+    background-color: #482BE7;
+    color: #fff;
+}
+
+.purple .explore-btn {
+    border-color: #fff;
+    color: #fff;
+}
+
+.purple .explore-btn:hover {
+    background-color: #fff;
+    color: #482BE7;
+}
+
+.image-card {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.image-card h2,
+.image-card p {
+    color: #fff;
+}
+
+.card--white {
+    background-color: #fff;
+    border: 2px solid #EBEAED;
+}
+
+.card--white h2{
+    color: #1E0E62;
+}
+
+.card--gray {
+    background-color: #f0f0f0;
+}
+.card--gray h2{
+    color: #1E0E62;
+}
+
+.card--gray p{
+    color: #1E0E62;
+}
+
+.card--purple {
+    background-color: #482BE7;
+}
+
+.card--purple h2 {
+    color: #fff;
+}
+
+.card--purple p {
+    color: #fff;
+}
+
+.purple .explore-btn {
+    border-color: #fff;
+    color: #fff;
+}
+
+.purple .explore-btn:hover {
+    background-color: #fff;
+    color: #482BE7;
+}
+
